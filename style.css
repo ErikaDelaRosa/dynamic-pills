@@ -14,7 +14,7 @@ body {
 .container, li {
     text-decoration: none;
     background-color: grey;
-   // opacity:0.8;
+   //opacity:0.8;
     width: auto;
     color:white;
 }
@@ -58,9 +58,9 @@ width: 10rem;
 }
 #navmenu a:active {
     background-color: #DCFFFF;
-    color:#030397;
+    color:#0659a7;
 }
 #navmenu a:focus {
     background-color: #DCFFFF;
-    color:#0606e6c0;
+    color:#06e6e6c0;
 }

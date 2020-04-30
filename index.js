@@ -5,6 +5,7 @@
     });
 }*/
 
+
 function myFunction() {
     var element = document.getElementById("toystory");
     element.classList.toggle("toystory");
