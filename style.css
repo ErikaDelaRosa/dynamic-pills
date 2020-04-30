@@ -6,11 +6,57 @@ body {
 
 .container {
     border: 3px black solid;
-    width: 14rem;
+    width: 30rem;
     font-size: 24px;
     font-weight: solid;
 }
 
 .container, li {
     text-decoration: none;
+    background-color: grey;
+    width: auto;
+    color:white;
+}
+
+img {
+width: 10rem;
+}
+
+#toystory {
+    background-image: url(./img/toystory.jpeg);
+    background-size: cover;
+    height: 700px;
+}
+#avengers{
+    background-image: url(./img/avengers.jpeg);
+    background-size: cover;
+    height: 700px;
+}
+#parasite {
+    background-image: url(./img/parasite.jpg.jpeg);
+    background-size: cover;
+    height: 700px;
+}
+#starwars{
+    background-image: url(./img/starwars.jpeg);
+    background-size: cover;
+    height: 700px;
+}
+#joker{
+    background-image: url(./img/joker.jpeg);
+    background-size: cover;
+    height: 700px;
+}
+
+#navmenu a:hover {
+    background-color: #DCFFFF;
+    color:#000066;
+}
+#navmenu a:active {
+    background-color: #DCFFFF;
+    color:#030397;
+}
+#navmenu a:focus {
+    background-color: #DCFFFF;
+    color:#0606e6c0;
 }
