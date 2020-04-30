@@ -14,6 +14,7 @@ body {
 .container, li {
     text-decoration: none;
     background-color: grey;
+   // opacity:0.8;
     width: auto;
     color:white;
 }
@@ -26,6 +27,9 @@ width: 10rem;
     background-image: url(./img/toystory.jpeg);
     background-size: cover;
     height: 700px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 #avengers{
     background-image: url(./img/avengers.jpeg);

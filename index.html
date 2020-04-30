@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--bootstrap css-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
@@ -13,16 +13,40 @@
 
     <div class="container">
         <h2>Best Movies</h2>
-        <ul class="nav nav-pills" id="navmenu"><a data-toggle="pill" href="#"></a></li>
-            <li class="active"></li>
+        <ul class="nav nav-pills" id="navmenu">
+            <a data-toggle="pill" href="#"></a></li>
             <li><a data-toogle="pill" href="#toystory">Toy Story</a></li>
             <li><a data-toogle="pill" href="#avengers">Avengers</a></li>
             <li><a data-toogle="pill" href="#parasite">Parasite</a></li>
             <li><a data-toogle="pill" href="#joker">Joker</a></li>
             <li><a data-toogle="pill" href="#starwars">Star Wars</a></li>
         </ul>
+        <!--movie content-->
+        <div class="movie-content">
+          <div id="toystory" class="tab-pane fade" a href="#toystory">
+                <h3>Toy Story</h3>
+                <p>Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woody's slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that they're worlds apart when it comes to what they want from life as a toy.</p>
+              </div>
+              <div id="avengers" class="tab-pane fade">
+                <h3>Avengers</h3>
+                <p>DescriptionAfter Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</p>
+              </div>
+              <div id="parasite" class="tab-pane fade">
+                <h3>Parasite</h3>
+                <p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>
+              </div>
+              <div id="joker" class="tab-pane fade">
+                <h3>Menu 3</h3>
+                <p>You are on third menu</p>
+              </div>
+              <div id="starwars" class="tab-pane fade">
+                <h3>Star Wars</h3>
+                <p>When it's discovered that the evil Emperor Palpatine did not die at the hands of Darth Vader, the rebels must race against the clock to find out his whereabouts. Finn and Poe lead the Resistance to put a stop to the First Order's plans to form a new Empire, while Rey anticipates her inevitable confrontation with Kylo Ren. Warning: Some flashing-lights scenes in this film may affect photosensitive viewers.</p>
+              </div>
+        </div>
     </div>
 
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 </body>
 </html>
