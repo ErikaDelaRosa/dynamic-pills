@@ -5,8 +5,21 @@
     });
 }*/
 
-
+function windowLoad () {
+    alert ('Welcome to the cinema!');
+}
+/*
 function myFunction() {
     var element = document.getElementById("toystory");
     element.classList.toggle("toystory");
- }
+}*/
+
+document.getElementById('toystory').onclick = function() {
+	document.getElementById('toystory1').style.display = 'block';
+}`
+
+function bluBg(){
+    this.style.backgroundColor = '#98D8F8";
+}
+let lights = document.querySelector('#navmenu');
+lights.addEventListener('mouseover', bluBg);
