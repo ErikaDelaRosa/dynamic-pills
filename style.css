@@ -27,9 +27,8 @@ width: 10rem;
     background-image: url(./img/toystory.jpeg);
     background-size: cover;
     height: 700px;
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+    display:flex;
+    justify-content: center;
 }
 #avengers{
     background-image: url(./img/avengers.jpeg);
@@ -37,7 +36,7 @@ width: 10rem;
     height: 700px;
 }
 #parasite {
-    background-image: url(./img/parasite.jpg.jpeg);
+    background-image: url(./img/parasite.jpg);
     background-size: cover;
     height: 700px;
 }
@@ -45,6 +44,7 @@ width: 10rem;
     background-image: url(./img/starwars.jpeg);
     background-size: cover;
     height: 700px;
+    
 }
 #joker{
     background-image: url(./img/joker.jpeg);

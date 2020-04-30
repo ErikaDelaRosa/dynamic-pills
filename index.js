@@ -15,7 +15,7 @@ function myFunction() {
 }*/
 
 document.getElementById('toystory').onclick = function() {
-	document.getElementById('toystory1').style.display = 'block';
+	document.getElementById('toystory1').style.display = 'inline-flex';//flex
 }`
 
 function bluBg(){
