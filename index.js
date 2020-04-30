@@ -6,6 +6,6 @@
 }*/
 
 function myFunction() {
-    var element = document.getElementById("#toystory");
-    element.classList.toggle("movie-content");
+    var element = document.getElementById("toystory");
+    element.classList.toggle("toystory");
  }
