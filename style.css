@@ -6,15 +6,15 @@ body {
 
 .container {
     border: 3px black solid;
-    width: 30rem;
+    width: auto;
     font-size: 24px;
     font-weight: solid;
 }
 
 .container, li {
     text-decoration: none;
-    background-color: grey;
-   //opacity:0.8;
+  /*  background-color: grey;*/
+    opacity:0.8;
     width: auto;
     color:white;
 }
@@ -22,7 +22,16 @@ body {
 img {
 width: 10rem;
 }
-
+p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+#toystoryimg {
+    height: 70px;
+    display:flex;
+}
+/*
 #toystory {
     background-image: url(./img/toystory.jpeg);
     background-size: cover;
@@ -30,6 +39,7 @@ width: 10rem;
     display:flex;
     justify-content: center;
 }
+
 #avengers{
     background-image: url(./img/avengers.jpeg);
     background-size: cover;
@@ -51,9 +61,10 @@ width: 10rem;
     background-size: cover;
     height: 700px;
 }
+*/
 
 #navmenu a:hover {
-    background-color: #DCFFFF;
+    background-color: #98F8E9;
     color:#000066;
 }
 #navmenu a:active {

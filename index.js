@@ -8,16 +8,20 @@
 function windowLoad () {
     alert ('Welcome to the cinema!');
 }
-/*
+
 function myFunction() {
     var element = document.getElementById("toystory");
-    element.classList.toggle("toystory");
-}*/
+    element.classList.toggle("toystory1");
+}
 
-document.getElementById('toystory').onclick = function() {
-	document.getElementById('toystory1').style.display = 'inline-flex';//flex
+function descriptionShow (){
+    document.getElementById("toystoryimg").style.display = "block";
+}
+/*
+document.getElementById("toystory").onclick = function() {
+	document.getElementById("toystory1").style.display = 'inline-flex';//flex
 }`
-
+*/
 function bluBg(){
     this.style.backgroundColor = '#98D8F8";
 }
