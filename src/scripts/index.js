@@ -23,7 +23,25 @@ document.getElementById("toystory").onclick = function() {
 }`
 */
 function bluBg(){
-    this.style.backgroundColor = '#98D8F8";
+    this.style.backgroundColor = "#98D8F8";
 }
 let lights = document.querySelector('#navmenu');
 lights.addEventListener('mouseover', bluBg);
+
+
+import { data } from "./data.js";
+let parsedData = JSON.parse(data);
+console.log(parsedData);
+const section = document.querySelector(".container");
+parsedData.forEach((obj) => {
+  console.log(obj);
+  let { id, title, description, image } = obj;
+  //console.log(id);
+  let card = ` <div id=${id}>
+  <h2> ${title} </h2>
+  <img src=${image} alt=${title}>
+  <h6> ${description} </h6>
+  </div>
+  `;
+  section.innerHTML += card;
+});
