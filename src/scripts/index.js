@@ -15,8 +15,19 @@ function myFunction() {
 }
 
 function descriptionShow (){
-    document.getElementById("toystoryimg").style.display = "block";
+    document.getElementById("pill").style.display = "block";
 }
+
+function showTime (){
+    (navmenu.classList.contains("active"));
+}
+
+
+
+//(movieItem.classList.contains("active"))      
+// movieItem.classList.remove("active");
+//this.classList.remove("hover");  
+//this.classList.add("active");
 /*
 document.getElementById("toystory").onclick = function() {
 	document.getElementById("toystory1").style.display = 'inline-flex';//flex
